@@ -1,84 +1,50 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
+  background: #fff8f0;
   margin: 0;
   padding: 0;
-  background-color: #fffaf3;
-  color: #4a2e1f;
+  color: #333;
 }
 
 header {
-  background: linear-gradient(to right, #d2691e, #f4a261); /* tons quentes: laranja e terra */
-  color: #fff;
+  background-color: #ff914d;
+  color: white;
   padding: 40px 20px;
   text-align: center;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 2.8em;
-  font-weight: bold;
-}
-
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
-}
-
-.container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+.btn-whatsapp {
+  background-color: #25d366;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 section {
-  margin-bottom: 40px;
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
 }
 
 h2 {
-  color: #b23b15; /* tom mais queimado/vermelho-terra */
-  margin-bottom: 10px;
-  font-size: 1.8em;
-  border-bottom: 2px solid #e07b39;
-  padding-bottom: 5px;
-}
-
-h3 {
-  color: #d35400; /* laranja queimado */
-  margin-top: 20px;
+  color: #ff914d;
 }
 
 ul {
-  padding-left: 20px;
-  line-height: 1.6em;
+  columns: 2;
+  list-style: none;
+  padding: 0;
 }
 
-.checklist li::before {
-  content: "🍴";
-  margin-right: 10px;
-}
-
-.whatsapp-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #e63946; /* vermelho apetitoso */
-  color: white;
-  border: none;
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 1em;
-  transition: background-color 0.3s ease;
-}
-
-.whatsapp-btn:hover {
-  background-color: #bf2d3d;
+ul li::before {
+  content: "🍽️ ";
 }
 
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: #f7c59f;
-  color: #4a2e1f;
-  font-size: 0.9em;
-  margin-top: 40px;
+  padding: 30px 20px;
 }
