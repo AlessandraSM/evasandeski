@@ -1,91 +1,85 @@
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #fff8f0;
-    color: #4b2e2e;
-    line-height: 1.6;
+    padding: 0;
+    background-color: #fffaf3;
+    color: #4a2e1f;
   }
   
   header {
-    background-color: #b22222;
-    color: #fff8f0;
+    background: linear-gradient(to right, #d2691e, #f4a261); /* tons quentes: laranja e terra */
+    color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    padding: 2rem 1rem;
   }
   
   header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.8em;
+    font-weight: bold;
   }
   
   header p {
-    font-size: 1.2rem;
-    margin: 0.5rem 0 1.5rem;
+    font-size: 1.2em;
+    margin-top: 10px;
   }
   
   .container {
     max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+    margin: 40px auto;
+    padding: 0 20px;
   }
   
   section {
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
   }
   
   h2 {
-    color: #a0522d;
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+    color: #b23b15; /* tom mais queimado/vermelho-terra */
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #e07b39;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    color: #d35400; /* laranja queimado */
+    margin-top: 20px;
   }
   
   ul {
-    padding-left: 1.5rem;
-  }
-  
-  li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .imagem-comida img {
-    width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    margin-bottom: 2rem;
-  }
-  
-  .whatsapp-btn {
-    background-color: #ff8c00;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    transition: background-color 0.3s;
-  }
-  
-  .whatsapp-btn:hover {
-    background-color: #e07b00;
-  }
-  
-  .checklist li {
-    list-style: none;
-    padding-left: 1rem;
-    position: relative;
+    padding-left: 20px;
+    line-height: 1.6em;
   }
   
   .checklist li::before {
-    content: '✔️';
-    position: absolute;
-    left: -1.2rem;
+    content: "🍴";
+    margin-right: 10px;
+  }
+  
+  .whatsapp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #e63946; /* vermelho apetitoso */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #bf2d3d;
   }
   
   footer {
-    background-color: #b22222;
-    color: #fff;
     text-align: center;
-    padding: 1rem;
-    margin-top: 3rem;
+    padding: 20px;
+    background-color: #f7c59f;
+    color: #4a2e1f;
+    font-size: 0.9em;
+    margin-top: 40px;
   }
   
